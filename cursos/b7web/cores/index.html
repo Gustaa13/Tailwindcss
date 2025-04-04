@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando cores</title>
+    <link rel="stylesheet" href="/tailwind-build/output/tailwind.css">
+</head>
+<body class="bg-gray-600">
+    <div class="text-yellow-700">
+        Cor no texto
+    </div>
+    <div class="text-blue-500/60">
+        Cor com opacidade
+    </div>
+    <div class="text-[#FF0000]">
+        Cor com hexadecimal
+    </div>
+    <div class="text-purple-950 bg-pink-400/70 border-2 border-amber-50 border-b-orange-600 border-t-sky-500">
+        Cor no texto + Cor no fundo + Borda + Cores nas bordas
+    </div>
+    <div class="bg-verde">
+        Cor no fundo com variável usando @theme
+    </div>
+</body>
+</html>

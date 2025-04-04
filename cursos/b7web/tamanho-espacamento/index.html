@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanhos e Espaçamentos no tailwindcss</title>
+    <link rel="stylesheet" href="/tailwind-build/output/tailwind.css">
+</head>
+<body class="w-screen h-screen">
+    <div class="bg-blue-600 w-36 h-36 p-3 m-5">
+        quadrado com padding e margin
+    </div>
+    <div class="bg-red-600 w-44 h-28 mb-5">
+        retângulo com margin inferior
+    </div>
+    <div class="bg-green-600 w-1/2 h-32 mx-8">
+        retângulo com metade da largura da tela e margin no eixo x
+    </div>
+    <div class="bg-violet-600 w-1/3 h-full my-10">
+        retângulo com máximo da altura e margin no eixo y
+    </div>
+    <div class="bg-yellow-500 max-w-sm min-h-[90px] -mt-15 ml-5">
+        Largura máxima com valor "small", altura mínima com valor em pixels, margin left e margin top negativa
+    </div>
+</body>
+</html>
