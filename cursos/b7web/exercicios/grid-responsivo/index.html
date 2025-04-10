@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando grid responsivo</title>
+    <link rel="stylesheet" href="/tailwind-build/output/tailwind.css">
+</head>
+<body class="w-screen min-h-screen flex items-center">
+    <div class="container mx-auto">
+        <div class="p-4 rounded-md bg-slate-300">
+            <div class="grid grid-cols-2 gap-2 md:grid-cols-3">
+                <div class="w-full h-50 bg-cover bg-center col-span-2 rounded-tl-md rounded-tr-md md:row-span-2 md:h-full md:rounded-bl-md md:rounded-tr-none bg-[url(https://plus.unsplash.com/premium_photo-1682377521552-49d35c2c9704?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)]"></div>
+                <div class="w-full h-35 bg-cover bg-center rounded-bl-md md:rounded-tr-md md:h-50 md:rounded-bl-none bg-[url(https://plus.unsplash.com/premium_photo-1682377521724-ececd24a83b4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1pbi1zYW1lLXNlcmllc3wxfHx8ZW58MHx8fHx8)]"></div>
+                <div class="w-full h-35 bg-cover bg-center rounded-br-md md:h-50 bg-[url(https://plus.unsplash.com/premium_photo-1682377521720-3a43955c8329?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1pbi1zYW1lLXNlcmllc3w1fHx8ZW58MHx8fHx8)]"></div>
+            </div>
+            <div class="text-2xl font-bold mt-3 text-gray-800">Casa</div>
+            <div class="flex gap-2 mt-3">
+                <div class="rounded-full px-3 py-1 bg-blue-500 text-white">Campo</div>
+                <div class="rounded-full px-3 py-1 bg-blue-500 text-white">Moderno</div>
+                <div class="rounded-full px-3 py-1 bg-blue-500 text-white">Piscina</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
