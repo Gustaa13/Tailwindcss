@@ -2,3 +2,18 @@
 @theme { 
     --color-verde: #00FF00; 
 }
+
+/* Estilo base */
+/*@layer base {
+    h1 {
+        @apply text-2xl;
+        @apply bg-yellow-600;
+    }
+}*/
+
+/* Criando componentes */
+@layer componentes {
+    .cartao {
+        @apply p-3 border-2 border-gray-700 rounded-lg;
+    }
+}
